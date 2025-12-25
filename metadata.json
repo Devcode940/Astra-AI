@@ -1,0 +1,8 @@
+{
+  "name": "Astra AI - Intelligent Workspace",
+  "description": "A high-performance, multi-modal AI assistant platform powered by featuring streaming chat, image generation, vision analysis, and real-time voice synthesis.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
