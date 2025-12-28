@@ -11,7 +11,8 @@ export enum AstraAgent {
   CREATIVE = 'Creative',
   CODER = 'Coder',
   ANALYST = 'Analyst',
-  ARCHITECT = 'Architect'
+  ARCHITECT = 'Architect',
+  NODEJS_EXPERT = 'Node.js Expert'
 }
 
 export interface GroundingLink {
