@@ -452,6 +452,7 @@ const App: React.FC = () => {
     [AstraAgent.CODER]: <Binary size={16} />,
     [AstraAgent.ANALYST]: <LineChart size={16} />,
     [AstraAgent.ARCHITECT]: <PencilRuler size={16} />,
+    [AstraAgent.NODEJS_EXPERT]: <TerminalIcon size={16} />,
   };
 
   const agentDescriptions = {
@@ -461,6 +462,7 @@ const App: React.FC = () => {
     [AstraAgent.CODER]: "Code generation, terminal access, and software logic.",
     [AstraAgent.ANALYST]: "Data extraction, summarization, and logical deduction.",
     [AstraAgent.ARCHITECT]: "System design, software architecture, and high-level planning.",
+    [AstraAgent.NODEJS_EXPERT]: "An expert on the nodejs/node-v0.x-archive repository.",
   };
 
   const imageStyles: ImageStyle[] = ["None", "Photorealistic", "Anime", "Digital Art", "Oil Painting", "Pixel Art", "3D Render", "Watercolor", "Sketch"];

@@ -238,6 +238,9 @@ export const geminiService = {
         case AstraAgent.ARCHITECT:
           systemInstruction += `\nMODE: ARCHITECT. Focus on high-level system design, software architecture patterns, scalability, and planning. Provide structured technical plans, folder structures, and step-by-step implementation strategies. Use the GitHub search tool to find reference architectures if needed.`;
           break;
+        case AstraAgent.NODEJS_EXPERT:
+          systemInstruction += `\nMODE: NODEJS_EXPERT. You are an expert on the nodejs/node-v0.x-archive repository. You can answer questions about the repository, its history, and its code.`;
+          break;
         default:
           systemInstruction += `\nMODE: GENERAL. Be helpful, concise, and balanced in your responses. You can manage the user's to-do list using the 'manageTasks' tool.`;
       }
